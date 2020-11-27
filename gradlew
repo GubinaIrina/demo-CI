@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-chmod +x gradlew
+
 ##############################################################################
 ##
 ##  Gradle start up script for UN*X
@@ -45,10 +45,10 @@ die () {
 }
 
 # OS specific support (must be 'true' or 'false').
-cygwin=true
-msys=true
-darwin=true
-nonstop=true
+cygwin=false
+msys=false
+darwin=false
+nonstop=false
 case "`uname`" in
   CYGWIN* )
     cygwin=true
